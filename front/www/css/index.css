@@ -1,0 +1,36 @@
+body {
+    padding : 1% 2%;
+    background-color: #FFFCF9;
+}
+
+
+.header-illustration
+{
+    height: 300px;
+}
+
+@media (max-width: 992px) {
+    .hero
+    {
+        text-align: center;
+        
+    }
+
+    
+}
+
+h3 {
+    text-align: center;
+}
+.nav-link {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+section, header {
+    margin-top: 100px;  
+}
+
+#laPhoto {
+    margin-left: 40%;
+}

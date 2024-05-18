@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./css/res/bootstrap.min.css" />
+  <link rel="stylesheet" href="./css/index.css" />
+  <link rel="stylesheet" href="../node_modules/font-awesome/css/font-awesome.css">
+  <title>Bootstrap</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">BookXChange</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <form class="d-flex mx-auto" role="search">
+          <input class="form-control me-2" type="search" placeholder="Besoin de quelque chose ?" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Chercher</button>
+        </form>
+    
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Acceuil</a>
+          </li>
+          <li class="nav-item"><a href="livres.html" class="nav-link">Livres</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="auteurs.html">Auteurs</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="utilisateurs.html">Utilisateurs</a>
+          </li>
+          <a class="btn btn-outline-secondary" href="./mon_compte.html">Mon compte</a>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <header>
+    <div class="container-fluid row hero">
+      <div class="col-lg-9 d-flex flex-column justify-content-center col-s-12">
+        <h1>Marre de vos vieux livres ?</h1>
+        <p>Echangez facilement vos anciens livres obtenez-en de nouveaux grauitement</p>
+      </div>
+      <div class="col-lg-3 col-s-12">
+        <img src="assets/images/book.png" alt="Un homme très heureux avec un livre" class="header-illustration" />
+      </div>
+    </div>
+  </header>
+
+
+  <section>
+    <h3>Nos fonctionnalités</h3>
+    <div class="row my-3">
+      <div class="col-lg-4 col-s-12 d-flex flex-column text-center">
+        <h4 class>Lecture gratuite</h4>
+        <p>Consultez l'entièrete de notre catalogue sans charge !</p>
+      </div>
+      <div class="col-lg-4 col-s-12 d-flex flex-column text-center">
+        <h4>Echange de livres</h4>
+        <p>Échangez en toute sécurité</p>
+      </div>
+      <div class="col-lg-4 col-s-12 d-flex flex-column text-center">
+        <h4>Livres rares</h4>
+        <p>Soyez récompensés par des livres rares</p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h3>Récemment ajoutés</h3>
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Harry potter à l'école des sorciers</h5>
+                <p class="card-text">Un livre de J.K Rowling</p>
+                <p class="card-text">L'histoire d'un enfant qui devient un sorcier
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Ajouté par Abderrahmane</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Dix petits nègres</h5>
+                <p class="card-text">Un livre d'Agathe christie'</p>
+                <p class="card-text">Une histoire épique qui parle de meurtres, parce que c'est Agatha Christie 
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Ajouté par Abderrahmane</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Ajouté par Abderrahmane</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+
+  <section>
+    <h3>Récemment échangés</h3>
+    <div class="row">
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-xl-2 col-lg-3 col-md-6 col-s-12">
+        <div class="card">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="assets/images/lotr.jpg" class="card-img-top" alt="Un livre">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Le seigneur des anneaux</h5>
+                <p class="card-text">Un livre de J.R.R. Tolkien</p>
+                <p class="card-text">Une histoire épique de batailles, d'amitié et d'aventure dans un monde fantastique.
+                </p>
+              </div>
+              <div class="card-footer">
+                <p class="card-text">Échangé il y a 10 minutes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <footer class="bg-light text-center py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <p>&copy; 2022 BookXChange. Tous droites réservés.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p>Conditions d'utilisation | Vie privée</p>
+            </div>
+        </div>
+    </div>
+</footer>
+    <script src="./js/res/bootstrap.min.js" type="text/javascript"></script>
+</body>
+
+</html>
